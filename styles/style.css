@@ -110,7 +110,14 @@ text-align: center;
 @media (max-width: 478px) {
 
     .overlay2{
-        top: 180px;
+        top: 170px;
+    }
+}
+
+@media (min-width: 479px) and (max-width: 540px) {
+
+    .overlay2{
+        top: 200px;
     }
 }
 
