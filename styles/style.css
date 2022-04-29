@@ -5,16 +5,18 @@
 }
 
 #logo-flipin{
+    width: 100%;
     max-width: 150px;
     height: auto;
   }
 
 .jumbotron{
-    background: #fff;
+    background: #f2f2f2;
 }
 
 #myVideo {
     width: 100%;
+    height: auto;
 }
 
 .overlay {
@@ -28,10 +30,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.overlay2 {
+.grupoFormulario {
     position:absolute;
     top: 300px; 
-    right: 0px;
+    right: 1%;
     text-align: end;
     z-index:1;
     font-size: 2vw;  
@@ -85,6 +87,46 @@ text-align: center;
     text-align: center;
 }
 
+.footer-container{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+
+.secciones {
+    font-family: 'Montserrat', sans-serif;
+    color:#5271FF;
+    display : flex;
+    align-items : center;
+    font-size: 16px;
+    margin-top: 2%;
+}
+
+#redes{
+    width: 100%;
+    max-width: 30px;
+    height: auto;
+    margin-bottom: 2%;
+}
+
+.barra{
+    background: #000;
+    height: 1px;
+    width: 95%;
+    margin: auto;
+}
+
+.contacto{
+    font-size: 1.3vw;  
+    color:#5271FF;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.info-contacto{
+    padding: 1%;
+}
+
 /*#######MEDIA QUERIES#######*/
 
 /* Size web */
@@ -94,14 +136,18 @@ text-align: center;
         flex: none;
     }
 
-    .overlay2{
+    .grupoFormulario{
         top: 350px;
+    }
+
+    .secciones {
+        font-size: 20px;  
     }
 }
 
 /* Size tablet */
 @media (min-width: 768px) and (max-width: 991px) {
-    .overlay2{
+    .grupoFormulario{
         top: 250px;
     }
 }
@@ -117,15 +163,23 @@ text-align: center;
 /* Size mobile */
 @media (max-width: 478px) {
 
-    .overlay2{
+    .grupoFormulario{
         top: 170px;
+    }
+
+    .secciones {
+        font-size: 12px;  
     }
 }
 
 @media (min-width: 479px) and (max-width: 767px) {
 
-    .overlay2{
+    .grupoFormulario{
         top: 200px;
+    }
+
+    .secciones {
+        font-size: 12px;  
     }
 }
 
@@ -133,7 +187,7 @@ text-align: center;
 
 /* Size mobile-landscape */
 @media (max-width: 850px) and (orientation: landscape) {
-    .overlay2{
+    .grupoFormulario{
         top: 240px;
     }
 }
