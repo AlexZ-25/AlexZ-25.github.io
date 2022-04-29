@@ -8,7 +8,14 @@
     width: 100%;
     max-width: 150px;
     height: auto;
-  }
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    z-index: 2;
+}
 
 .jumbotron{
     background: #f2f2f2;
