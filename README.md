@@ -19,6 +19,6 @@ Linkedin: https://www.linkedin.com/in/alexiscastillo25
 
 # Agradecimientos
 
-Gracias al equipo de UCamp por los conocimientos que permitieron generar este proyecto..}
+Gracias al equipo de UCamp por los conocimientos que permitieron generar este proyecto.
 
 A los instructores <b>Antonio Peña Murillo</b> y <b>Uriel Miranda</b> por sus enseñanzas y apoyo en todo momento.
